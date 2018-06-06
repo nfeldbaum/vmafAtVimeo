@@ -1,0 +1,11 @@
+Useful Commands:
+
+time python ffmpegToVmafBatch.py batch_input_ffmpeg --out-fmt json --parallelize >> output.txt
+
+
+//Create a symlink
+ln -s <path to source file> <path to dest file>
+
+//Copy into Docker
+docker cp <path to source file> vimeo_enhancer_1:<path to dest file>
+
